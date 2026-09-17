@@ -131,4 +131,4 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 
 | Nome completo | Nick | Registro de matrícula |
 |---|---|---|
-| _adicione sua linha aqui_ | | |
+| Gabriel de brito simao | gabrielbritosimao-crypto| 10379|
