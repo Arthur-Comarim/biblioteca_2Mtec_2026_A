@@ -131,4 +131,5 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 
 | Nome completo | Nick | Registro de matrícula |
 |---|---|---|
-| _adicione sua linha aqui_ | | |
+| Pedro Henrique Santos Silva| pedrosilva18560 | 10244 |
+| Gabriel Ornelas de Aguilar| ornelasXXtentationXX | 10520 |
