@@ -131,6 +131,7 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 
 | Nome completo | Nick | Registro de matrícula |
 |---|---|---|
+| Caio da Silva Matias | peba00 | 10247 | 
 | Heloisa Aguilera da Paixão | helopaixao | 10583 |
 | Carolyne Mudesto de Matos | mudestocarol | 10517 |
 | Pedro Henrique Santos Silva| pedrosilva18560 | 10244 |
