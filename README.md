@@ -131,6 +131,8 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 
 | Nome completo | Nick | Registro de matrícula |
 |---|---|---|
+| Pedro Henrique Santos Silva| pedrosilva18560 | 10244 |
+| Gabriel Ornelas de Aguilar| ornelasXXtentationXX | 10520 |
 | Arthur Comarim de Freitas Arcanjo | Arthur-Comarim | 10378 |
 | Emanuel dos Santos Batista | Linuel14 | 10382 |
 |Cesar Augusto Denelle Mussi | Meganoot2010 | 10463 |
