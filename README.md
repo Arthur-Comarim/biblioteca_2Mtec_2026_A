@@ -131,6 +131,8 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 
 | Nome completo | Nick | Registro de matrícula |
 |---|---|---|
+| Arthur Comarim de Freitas Arcanjo | Arthur-Comarim | 10378 |
+| Emanuel dos Santos Batista | Linuel14 | 10382 |
 |Cesar Augusto Denelle Mussi | Meganoot2010 | 10463 |
 | Gustavo Porfirio dos Santos | GustavoP55 | 10251 |
 | Laura Kelly OLIVEIRA ALMEIDA | koallaura | 10249 |
