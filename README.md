@@ -133,3 +133,7 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 |---|---|---|
 | Gustavo Porfirio dos Santos | GustavoP55 | 10251 |
 | Laura Kelly OLIVEIRA ALMEIDA | koallaura | 10249 |
+| Eric Richard Silveira | ersgd21 | 10273 |
+| Esmeralda Amorim do Nascimento | amorimesme | 10386 |
+| Agatha de Paula Fernandes | thagax | 10516 |
+| Gabriel de brito simao | gabrielbritosimao-crypto| 10379|
