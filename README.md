@@ -131,6 +131,8 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 
 | Nome completo | Nick | Registro de matrícula |
 |---|---|---|
+| Heloisa Aguilera da Paixão | helopaixao | 10583 |
+| Carolyne Mudesto de Matos | mudestocarol | 10517 |
 | Pedro Henrique Santos Silva| pedrosilva18560 | 10244 |
 | Gabriel Ornelas de Aguilar| ornelasXXtentationXX | 10520 |
 | Arthur Comarim de Freitas Arcanjo | Arthur-Comarim | 10378 |
