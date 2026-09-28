@@ -23,8 +23,6 @@ return new class extends Migration
 
             // PK composta: impede o mesmo livro duas vezes no mesmo gênero
             $table->primary(['CLSLIVRO', 'CLSGENERO']);
-
-            $table->timestamps();
         });
     }
 
