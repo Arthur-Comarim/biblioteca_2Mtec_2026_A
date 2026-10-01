@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Emprestimo extends Model
 {
-    protected $table = 'EMPRESTIMO';
+    protected $table = 'EMPRESTIMOS';
     protected $primaryKey = 'EMPCODIGO';
     public $timestamps = false;  // o diagrama não tem created_at/updated_at
     protected $fillable = [
@@ -28,4 +28,11 @@ class Emprestimo extends Model
     public function livro(){
         return $this->belongsTo(Livro::class, 'EMPLIVRO', 'LVRCODIGO');
     }
+
+    public function scopeAtivos($query){
+    return $query->whereNull('EMPDTDEVOL');
+    }
+
+   Emprestimo::ativos()->get();
+    
 }
