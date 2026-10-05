@@ -313,3 +313,4 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 | Esmeralda Amorim do Nascimento | amorimesme | 10386 |
 | Agatha de Paula Fernandes | thagax | 10516 |
 | Gabriel de brito simao | gabrielbritosimao-crypto| 10379|
+| Batriz Estevão Saraiva da Silva | beatrzestevao | 10243
