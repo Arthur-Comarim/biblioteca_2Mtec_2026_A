@@ -96,4 +96,30 @@ class ProfileTest extends TestCase
 
         $this->assertNotNull($user->fresh());
     }
+
+    public function test_guest_cannot_access_profile_page_directly(): void
+    {
+        $response = $this->get('/profile');
+
+        $response->assertRedirect(route('login'));
+    }
+
+    public function test_guest_cannot_update_profile_directly(): void
+    {
+        $response = $this->patch('/profile', [
+            'name' => 'Unauthorized User',
+            'email' => 'unauthorized@example.com',
+        ]);
+
+        $response->assertRedirect(route('login'));
+    }
+
+    public function test_guest_cannot_delete_account_directly(): void
+    {
+        $response = $this->delete('/profile', [
+            'password' => 'password',
+        ]);
+
+        $response->assertRedirect(route('login'));
+    }
 }
