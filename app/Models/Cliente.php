@@ -4,30 +4,38 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Casts\Attribute;
-class Cliente extends Model //criação da model Cliente, que representa a tabela CLIENTES no banco de dados
+
+// criação da model Cliente, que representa a tabela CLIENTES no banco de dados
+class Cliente extends Model
 {
+    // acho que agora essa bomba funciona
 
-// acho que agora essa bomba funciona
-
-    protected $table = 'CLIENTES'; // nome da tabela no banco de dados
-    protected $primaryKey = 'CLICODIGO'; // nome da chave primária no banco de dados
-    public $timestamps = false;  // o diagrama não tem created_at/updated_at
+    // nome da tabela no banco de dados
+    protected $table = 'CLIENTES';
+    // nome da chave primária no banco de dados
+    protected $primaryKey = 'CLICODIGO';
+    // o diagrama não tem created_at/updated_at
+    public $timestamps = false;
+    // campos que podem ser preenchidos em massa
     protected $fillable = [
         'CLINOME','CLICPF','CLITELEFONE',
-        'CLIEMAIL','CLIDTNASC','CLIDTCAD']; // campos que podem ser preenchidos em massa
-
-    protected $casts = [
-        'CLIDTNASC'=> 'date',
-        'CLIDTCAD'=>'date' // define o tipo de dado para as datas
+        'CLIEMAIL','CLIDTNASC','CLIDTCAD'
     ];
 
+    // define o tipo de dado para as datas
+    protected $casts = [
+        'CLIDTNASC'=> 'date',
+        'CLIDTCAD'=>'date'
+    ];
 
-    public function emprestimos() //um cliente pode ter muitos empréstimos
+    // um cliente pode ter muitos empréstimos
+    public function emprestimos()
     {
-    return $this->hasMany(Emprestimo::class, 'EMPCLIENTE','CLICODIGO');
+        return $this->hasMany(Emprestimo::class, 'EMPCLIENTE','CLICODIGO');
     }
 
-public function getIdadeAttribute() //acessor para calcular a idade do cliente com base na data de nascimento
+    // acessor para calcular a idade do cliente com base na data de nascimento
+    public function getIdadeAttribute()
     {
         if ($this->CLIDTNASC) {
             $birthDate = new \DateTime($this->CLIDTNASC);
