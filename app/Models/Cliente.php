@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 class Cliente extends Model
 {
 
-
+// acho que agora essa bomba funciona
 
     protected $table = 'CLIENTES'; // nome da tabela no banco de dados
     protected $primaryKey = 'CLICODIGO'; // nome da chave primária no banco de dados

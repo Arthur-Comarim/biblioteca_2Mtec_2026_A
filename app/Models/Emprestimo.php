@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Emprestimo extends Model
 {
+    // não consegui testar nenhuma das models por falta das outras migrations, mas acredito que vai funcionar, pois a sintaxe está correta e o diagrama do banco de dados está correto
+
     protected $table = 'EMPRESTIMOS'; // nome da tabela no banco de dados
     protected $primaryKey = 'EMPCODIGO'; // nome da chave primária no banco de dados
     public $timestamps = false;  // o diagrama não tem created_at/updated_at
