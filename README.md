@@ -289,8 +289,7 @@ campo `Closes #` pronto para preencher.
 
 ## Modelo de dados
 
-_(o diagrama ER e a documentação do schema serão adicionados aqui pelo time
-— veja as issues de Banco de Dados da Sprint 1)._
+![Diagrama ER](docs/diagrama-er.png)
 
 ## Equipe
 
@@ -306,7 +305,9 @@ Pull Request individual (veja a issue "Adicionar seu nome ao README").
 | Gabriel Ornelas de Aguilar| ornelasXXtentationXX | 10520 |
 | Arthur Comarim de Freitas Arcanjo | Arthur-Comarim | 10378 |
 | Emanuel dos Santos Batista | Linuel14 | 10382 |
-|Cesar Augusto Denelle Mussi | Meganoot2010 | 10463 |
+| Heloíse Bastos do Carmo Almeida | HeloiseBCA | 10385 |
+| Igor Vaz Cavalcanti | Igor-V-C | 10246 |
+| Cesar Augusto Denelle Mussi | Meganoot2010 | 10463 |
 | Gustavo Porfirio dos Santos | GustavoP55 | 10251 |
 | Laura Kelly OLIVEIRA ALMEIDA | koallaura | 10249 |
 | Eric Richard Silveira | ersgd21 | 10273 |
