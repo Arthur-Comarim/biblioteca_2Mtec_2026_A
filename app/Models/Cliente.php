@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Casts\Attribute;
-class Cliente extends Model
+class Cliente extends Model //criação da model Cliente, que representa a tabela CLIENTES no banco de dados
 {
 
 // acho que agora essa bomba funciona
@@ -22,8 +22,9 @@ class Cliente extends Model
     ];
 
 
-    public function emprestimos(){
-    return $this->hasMany(Emprestimo::class, 'EMPCLIENTE','CLICODIGO'); //um cliente pode ter muitos empréstimos
+    public function emprestimos() //um cliente pode ter muitos empréstimos
+    {
+    return $this->hasMany(Emprestimo::class, 'EMPCLIENTE','CLICODIGO');
     }
 
 public function getIdadeAttribute() //acessor para calcular a idade do cliente com base na data de nascimento
